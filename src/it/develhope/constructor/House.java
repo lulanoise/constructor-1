@@ -5,7 +5,7 @@ package it.develhope.constructor;
  * @author Mr Wolf
  */
 public class House {
-    // instance variables
+
     String address;
     int numberOfFloors;
 
@@ -16,6 +16,6 @@ public class House {
     public House(String address, int numberOfFloors) {
         this.address = address;
         this.numberOfFloors = numberOfFloors;
-        System.out.println("A new house has been created!");
+        System.out.println("A new house has been created! " + address + ", " + numberOfFloors + " piani.");
     }
 }

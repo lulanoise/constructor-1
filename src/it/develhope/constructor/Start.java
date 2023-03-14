@@ -10,10 +10,9 @@ public class Start {
      */
 
     public static void main(String[] args) {
-        House house1, house2;  // two variables declaration
-        house1 = new House("Via Morea 6", 3); // first House object creation and variable assignment
-        house2 = new House("Via Mazzini", 2);// second House object creation and variable assignment
-
+        House house1, house2;
+        house1 = new House("Via Morea 6", 3);
+        house2 = new House("Via Mazzini", 2);
     }
 }
     
